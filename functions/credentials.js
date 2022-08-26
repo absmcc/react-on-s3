@@ -1,4 +1,4 @@
-export const credential = {
+export const credentials = {
   "type": "service_account",
   "project_id": "three-do-api-mcr",
   "private_key_id": "0775c9d84d143a5fa9eaba71401dad61fc5c8209",
@@ -8,5 +8,5 @@ export const credential = {
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vcdql%40three-do-api-mcr.iam.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vcdql%40r.iam.gserviceaccount.com"
 }
