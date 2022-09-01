@@ -31,9 +31,11 @@ export async function createTask(req, res) {
   getTasks(req, res) // sends back full list with new task...
 }
 
-export function updateTask(req, res) {
+export async function updateTask(req, res) {
   const taskUpdated = req.body
   const { taskId } = req.params
+  const db = dbConnect();
+  await db.collection("task").doc(taskId).update(taskUpdate)
   res.status(202).send("Task Updated")
 }
 
